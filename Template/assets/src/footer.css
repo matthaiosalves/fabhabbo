@@ -1,5 +1,6 @@
 footer {
   background-color: var(--Blue600);
+  margin-top: 25px;
 }
 .footer--copyright {
   color: var(--White);

@@ -1,9 +1,11 @@
+.news {
+  padding: 0.5rem 0;
+  margin-top: 25px;
+}
 .news .list-group {
   display: flex;
   flex-direction: column;
   flex-grow: 1;
-  padding: 0.5rem 0;
-
   gap: 10px;
 }
 
