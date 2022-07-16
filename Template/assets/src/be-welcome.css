@@ -1,0 +1,44 @@
+.card--be-welcome {
+  width: 100%;
+  height: 110px;
+  background: url(https://i.imgur.com/mgwFBoK.gif) center;
+  color: var(--White);
+  padding: 0;
+  overflow: hidden;
+}
+
+.card--be-welcome div {
+  position: absolute;
+  padding-top: 20px;
+  padding-left: 40px;
+  text-transform: uppercase;
+  background: linear-gradient(100deg, #a3220d, #ff000008, #0000, #0000);
+  width: 100%;
+  height: 100%;
+}
+
+.card--be-welcome div h2 {
+  font-size: 31px;
+  font-weight: 900;
+}
+
+.card--be-welcome div p {
+  font-size: 12px;
+  font-weight: 300;
+}
+
+.card--be-welcome .card-body > div {
+  display: flex;
+  flex-direction: row;
+  justify-content:center;
+  align-items:center;
+}
+
+.card--be-welcome .card-body > div .new--members {
+  margin-top: -10px;
+  margin-right: -24px;
+  margin-left: -24px;
+}
+
+
+
