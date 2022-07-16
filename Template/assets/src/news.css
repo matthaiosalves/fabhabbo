@@ -112,3 +112,10 @@
   line-height: 20px;
 }
 /*End Quick Acess*/
+
+
+@media (max-width: 992px) {
+  .news--quick-acess a {
+    width: 100%;
+  }
+}
