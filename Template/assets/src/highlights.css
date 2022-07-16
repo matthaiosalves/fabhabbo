@@ -1,6 +1,6 @@
 .card--highlights {
   height: 280px;
-  text-shadow: 0 2px black;
+  text-shadow: 0 2px var(--Black);
   border: 1px solid var(--LightSkyBlue);
   background: linear-gradient(185deg,rgba(0,0,0,0) 50%,rgba(22, 136, 202, 0.88) 80%), url(https://www.habbo.com.br/habbo-imaging/avatarimage?user=Cmd-Peralta&action=std&direction=2&head_direction=3&gesture=sml&size=l) no-repeat center -10px, url(img/pracadestaque750x500xpng76.png) center;
 }
