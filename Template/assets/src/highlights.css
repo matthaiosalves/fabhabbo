@@ -1,6 +1,25 @@
 .card--highlights {
   height: 280px;
+  border: 0;
+  background: linear-gradient(185deg,rgba(0,0,0,0) 50%,var(--Blue600)), url(https://www.habbo.com.br/habbo-imaging/avatarimage?user=Cmd-Peralta&action=std&direction=2&head_direction=3&gesture=sml&size=l) no-repeat center -10px, url(../../assets/img/pracadestaque.png) center;
+  box-shadow: var(--Shadow);
+
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  align-items: center;
+}
+.card--highlights .card--highlights-description {
+  color: var(--White);
   text-shadow: 0 2px var(--Black);
-  border: 1px solid var(--LightSkyBlue);
-  background: linear-gradient(185deg,rgba(0,0,0,0) 50%,rgba(22, 136, 202, 0.88) 80%), url(https://www.habbo.com.br/habbo-imaging/avatarimage?user=Cmd-Peralta&action=std&direction=2&head_direction=3&gesture=sml&size=l) no-repeat center -10px, url(img/pracadestaque750x500xpng76.png) center;
+  text-align: center;
+  margin-bottom: 14px;
+}
+.card--highlights .card--highlights-description h5 {
+  font-size: 25px;
+  font-weight: 900;
+  margin-bottom: 0px;
+}
+.card--highlights .card--highlights-description p {
+  font-size: 16px;
 }
