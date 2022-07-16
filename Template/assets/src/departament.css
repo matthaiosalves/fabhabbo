@@ -1,0 +1,26 @@
+.card--departament {
+  background-color: var(--Blue500);
+  box-shadow: var(--shadow);
+  border: 0;
+
+  cursor: pointer;
+
+  -moz-transition: all .4s ease-in-out;
+  -o-transition: all .4s ease-in-out;
+  -webkit-transition: all .4s ease-in-out;
+  transition: all .4s ease-in-out;
+}
+.card--departament:hover {
+  background: linear-gradient(45deg, var(--Blue600), var(--Blue100));
+  background-size: 300% 100%;
+}
+.card--departament .card-header {
+  display: flex;
+  align-items:center;
+  gap: 15px;
+}
+.card--departament .card-header h5 {
+  font-size: 40px;
+  font-weight: 900;
+  color: var(--White);
+}
