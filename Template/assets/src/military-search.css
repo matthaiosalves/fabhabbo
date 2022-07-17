@@ -1,7 +1,25 @@
+.military-search .military-search--image-board {
+  background-image: url(../../assets/img/Military-Search/hc_center_postit_bg_184x95.png);
+  background-repeat: no-repeat;
+  height:90px;
+  background-position: center center;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  filter: drop-shadow(0px 5px 20px var(--Orange600));
+  -webkit-filter: drop-shadow(0px 5px 20px var(--Orange600));
+
+  margin-top: -49px;
+  z-index: 2;
+}
 .military-search form  {
   display: flex;
   align-items: center;
   justify-content: center;
+
+  margin-top: -55px;
 }
 .military-search input {
   max-width: 590px;
@@ -22,4 +40,6 @@
 }
 .military-search .button--image-search {
   margin-left: -80px;
+
+  position: relative;
 }
