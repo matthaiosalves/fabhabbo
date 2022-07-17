@@ -6,7 +6,8 @@
     width: 100%;
   }
   .carousel--airforce, 
-  .card--highlights-praca {
+  .card--highlights-praca,
+  .card--departament {
     margin-bottom: 25px;
   }
   .news--information,
