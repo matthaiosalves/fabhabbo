@@ -4,7 +4,7 @@
 .card--highlights {
   height: 280px;
   border: 0;
-  background: linear-gradient(185deg,rgba(0,0,0,0) 50%,var(--Blue600)), url(https://www.habbo.com.br/habbo-imaging/avatarimage?user=Cmd-Peralta&action=std&direction=2&head_direction=3&gesture=sml&size=l) no-repeat center -10px, url(../../assets/img/pracadestaque.png) center;
+  background: linear-gradient(185deg,rgba(0,0,0,0) 50%,var(--Blue600)), url(https://www.habbo.com.br/habbo-imaging/avatarimage?user=Cmd-Peralta&action=std&direction=2&head_direction=3&gesture=sml&size=l) no-repeat center -10px, url(../../assets/img/Highlights/pracadestaque.png) center;
   box-shadow: var(--Shadow);
 
   display: flex;
@@ -25,4 +25,13 @@
 }
 .card--highlights .card--highlights-description p {
   font-size: 16px;
+}
+
+/*Carousel*/
+.carousel--airforce {
+  height: 280px;
+  background: red;
+  border: 0;
+  box-shadow: var(--Shadow);
+  overflow:hidden;
 }
