@@ -28,9 +28,3 @@ div#navbarNav {
 .navbar--airforce .container #navbarNav ul .nav-item:nth-child(odd) {
   background-color: var(--Blue200);
 }
-
-@media (max-width: 992px) {
-  .navbar--airforce .container #navbarNav ul .nav-item {
-    background-color: var(--Blue600);
-  }
-}
