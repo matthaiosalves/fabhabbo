@@ -25,6 +25,6 @@ div#navbarNav {
   align-items:center;
   box-shadow: var(--Shadow);
 }
-.navbar--airforce .container #navbarNav ul .nav-item:nth-child(odd) {
+.navbar--airforce .container #navbarNav ul .nav-item:nth-child(even) {
   background-color: var(--Blue200);
 }
