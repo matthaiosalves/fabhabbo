@@ -1,6 +1,9 @@
 footer {
-  background-color: var(--Blue600);
+  background-color: var(--Blue900);
   margin-top: 25px;
+  background-image: url(../../assets/img/Footer/lpromo_07082019.png);
+  background-repeat: no-repeat;
+  background-position-x: 100%;
 }
 .footer--copyright {
   color: var(--White);

@@ -8,14 +8,17 @@
 
   cursor: pointer;
 
-  -moz-transition: all .4s ease-in-out;
-  -o-transition: all .4s ease-in-out;
-  -webkit-transition: all .4s ease-in-out;
-  transition: all .4s ease-in-out;
+  -moz-transition: all .4s;
+  -o-transition: all .4s;
+  -webkit-transition: all .4s;
+  transition: all .4s;
+
+  background-image: url(../../assets/img/Welcome/airplane_webpromo.png);
 }
 .card--departament:hover {
-  background: linear-gradient(45deg, var(--Blue600), var(--Blue100));
-  background-size: 300% 100%;
+  filter: brightness(0.9);
+  filter: drop-shadow(0px 5px 10px var(--Blue200));
+  -webkit-filter: drop-shadow(0px 5px 10px var(--Blue200));
 }
 .card--departament .card-header {
   display: flex;
