@@ -1,3 +1,28 @@
 .navbar--airforce {
   background-color: var(--Blue600);
+  height:60px;
+}
+.navbar-dark .navbar-nav .nav-link {
+  color: var(--White);
+  text-transform: uppercase;
+}
+div#navbarNav {
+  justify-content: center;
+}
+.navbar--airforce .container #navbarNav ul .nav-item {
+  width:160px;
+  height:60px;
+  display:flex;
+  justify-content: center;
+  align-items:center;
+  box-shadow: var(--Shadow);
+}
+.navbar--airforce .container #navbarNav ul .nav-item:nth-child(odd) {
+  background-color: var(--Blue500);
+}
+
+@media (max-width: 992px) {
+  .navbar--airforce .container #navbarNav ul .nav-item {
+    background-color: var(--Blue600);
+  }
 }
