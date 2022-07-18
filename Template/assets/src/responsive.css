@@ -17,4 +17,16 @@
   .airplane--button {
     top: 85%;
   }
+  .card--be-welcome .card-body > div .new--members:nth-child(1) {
+    visibility: hidden;
+  }
+  .card--be-welcome .card-body > div .new--members:nth-child(2) {
+    visibility: hidden;
+  }
+}
+
+@media (max-width: 475px) {
+  .card--be-welcome .card-body > div .new--members {
+    display: none;
+  }
 }
