@@ -1,0 +1,12 @@
+.intern {
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+.card--intern {
+  background-color: var(--Blue500);
+  box-shadow: var(--Shadow);
+  height: 60px;
+}
+.intern .card--highlights-praca {
+  margin-bottom: 25px;
+}
