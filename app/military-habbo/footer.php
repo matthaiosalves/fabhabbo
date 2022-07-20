@@ -11,22 +11,23 @@
 
 ?>
 
-	<footer id="colophon" class="site-footer">
-		<div class="site-info">
-			<a href="<?php echo esc_url( __( 'https://wordpress.org/', 'military-habbo' ) ); ?>">
-				<?php
-				/* translators: %s: CMS name, i.e. WordPress. */
-				printf( esc_html__( 'Proudly powered by %s', 'military-habbo' ), 'WordPress' );
-				?>
-			</a>
-			<span class="sep"> | </span>
-				<?php
-				/* translators: 1: Theme name, 2: Theme author. */
-				printf( esc_html__( 'Theme: %1$s by %2$s.', 'military-habbo' ), 'military-habbo', '<a href="https://www.linkedin.com/in/matheusalveso/">Matheus aLVES</a>' );
-				?>
-		</div><!-- .site-info -->
-	</footer><!-- #colophon -->
-</div><!-- #page -->
+<footer>
+    <div class="footer--copyright">
+      <div class="container">
+        <h6>Siga-nos nas redes sociais</h6>
+        <div class="footer--social">
+          <a href="#"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/Footer/instagram_2.png" alt="Social" target="_blank"></a>
+          <a href="#"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/Footer/youtube_2.png" alt="Social" target="_blank"></a>
+          <a href="#"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/Footer/room_icon_3.gif" alt="Social" target="_blank"></a>
+        </div>
+        <hr>
+        <small><a href="https://www.habbo.com.br/" target="_blank"><img class="footer--habbo-icon" src="<?php echo get_template_directory_uri(); ?>/assets/img/Footer/1503__-3eM.png" alt="Habbo"></a> © <?php the_time( 'Y' ); ?> - Desenvolvido por Matheus Alves e João Vitor</small>
+      </div>
+    </div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+  <script src="<?php echo get_template_directory_uri(); ?>/assets/js/app.js"></script>
 
 <?php wp_footer(); ?>
 

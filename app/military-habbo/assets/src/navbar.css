@@ -1,0 +1,37 @@
+.icon--airfoce {
+  filter: drop-shadow(0px 5px 20px rgb(0, 132, 255));
+  -webkit-filter: drop-shadow(0px 5px 20px rgb(0, 132, 255));
+  transition: all 0.5s;
+}
+.icon--airfoce:hover {
+  transform:rotate(360deg);
+}
+.navbar--airforce {
+  background-color: var(--Blue900);
+  height:60px;
+}
+.navbar-dark .navbar-nav .nav-link {
+  color: var(--White);
+  text-transform: uppercase;
+  font-size:15px;
+}
+.navbar-dark .navbar-nav .nav-link img {
+  width: 25px;
+  height: 25px;
+  filter: drop-shadow(0px 5px 20px var(--Blue800));
+  -webkit-filter: drop-shadow(0px 5px 20px var(--Blue800));
+}
+div#navbarNav {
+  justify-content: center;
+}
+.navbar--airforce .container #navbarNav ul .nav-item {
+  width:160px;
+  height:60px;
+  display:flex;
+  justify-content: center;
+  align-items:center;
+  box-shadow: var(--Shadow);
+}
+.navbar--airforce .container #navbarNav ul .nav-item:nth-child(even) {
+  background-color: var(--Blue200);
+}
