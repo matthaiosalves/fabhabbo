@@ -1,0 +1,42 @@
+.background--animate {
+  height:300px;
+  background: red;
+  margin-top: 60px;
+  filter: brightness(.85);
+  box-shadow: var(--Shadow);
+  background-image: url(../../assets/img/Header/headergif.gif);
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  z-index: 1;
+}
+.background--animate-cloud:nth-child(1) {
+  background-image: url(../../assets/img/Header/cloud6.png);
+  background-repeat: no-repeat;
+  height: 300px;
+  opacity: 0.8;
+}
+.background--animate-cloud:nth-child(2) {
+  background-image: url(../../assets/img/Header/cloud4.png);
+  background-repeat: no-repeat;
+  height: 300px;
+  opacity: 0.8;
+}
+.background--animate-cloud:nth-child(3) {
+  background-image: url(../../assets/img/Header/cloud2.png);
+  background-repeat: no-repeat;
+  height: 300px;
+  opacity: 0.8;
+}
+.background--animate-cloud:nth-child(4) {
+  background-image: url(../../assets/img/Header/cloud4.png);
+  background-repeat: no-repeat;
+  height: 300px;
+  opacity: 0.8;
+}
+.background--animate-cloud:nth-child(5) {
+  background-image: url(../../assets/img/Header/cloud3.png);
+  background-repeat: no-repeat;
+  height: 300px;
+  opacity: 0.8;
+}
