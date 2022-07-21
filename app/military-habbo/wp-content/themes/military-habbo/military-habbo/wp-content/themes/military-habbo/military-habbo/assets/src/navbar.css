@@ -9,6 +9,7 @@
 .navbar--airforce {
   background-color: var(--Blue900);
   height:60px;
+  box-shadow: var(--Shadow);
 }
 .navbar-dark .navbar-nav .nav-link {
   color: var(--White);
@@ -30,7 +31,6 @@ div#navbarNav {
   display:flex;
   justify-content: center;
   align-items:center;
-  box-shadow: var(--Shadow);
 }
 .navbar--airforce .container #navbarNav ul .nav-item:nth-child(even) {
   background-color: var(--Blue200);
