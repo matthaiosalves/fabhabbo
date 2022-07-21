@@ -2,12 +2,7 @@
   <div class="container">
     <div class="row">
       <div class="col-sm-12 col-md-12 col-lg-3">
-        <div class="card card--highlights-praca">
-          <div class="card--highlights-description">
-            <h5>Matthaios</h5>
-            <span>Subtenente</span>
-          </div>
-        </div>
+        <?php get_template_part( 'template-parts/component', 'highlights-praca' ); ?>
       </div>
       <div class="col-sm-12 col-md-12 col-lg-6">
         <div id="carouselExampleControls" class="carousel slide carousel--airforce" data-bs-ride="carousel">
@@ -33,13 +28,8 @@
         </div>
       </div>
       <div class="col-sm-12 col-md-12 col-lg-3">
-        <div class="card card--highlights-oficial">
-          <div class="card--highlights-description">
-            <h5>Matthaios</h5>
-            <span>Subtenente</span>
-          </div>
-        </div>
-      </div>
+        <?php get_template_part( 'template-parts/component', 'highlights-oficial' ); ?>
+      </div> 
     </div>
   </div>
 </section>

@@ -1,4 +1,5 @@
 <?php
+
 /**
  * Military Habbo functions and definitions
  *
@@ -175,4 +176,10 @@ require get_template_directory() . '/inc/customizer.php';
 if ( defined( 'JETPACK__VERSION' ) ) {
 	require get_template_directory() . '/inc/jetpack.php';
 }
+
+function my_custom_login_stylesheet() {
+	wp_enqueue_style( 'wordpress', get_stylesheet_directory_uri() . '/assets/style.css' );
+	}
+	
+add_action( 'login_enqueue_scripts', 'my_custom_login_stylesheet' );
 

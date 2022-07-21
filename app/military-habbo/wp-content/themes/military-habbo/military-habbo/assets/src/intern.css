@@ -1,0 +1,19 @@
+.intern {
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+.card--intern {
+  background-color: var(--Blue500);
+  box-shadow: var(--Shadow);
+}
+.card-intern h1 {
+  text-align: center;
+  color: var(--White);
+  font-size: 40px;
+  font-weight: 900;
+  text-transform: uppercase;
+  text-shadow: 0px 2px 0px var(--Black);
+}
+.intern .card--highlights-praca {
+  margin-bottom: 25px;
+}
