@@ -1,10 +1,1 @@
-# Website
-Semana 11/07 à 18/07
-
-Site
--- Páginas - OK
-- Principal - OK
-- Hierarquia - OK
-- Página Modelo - OK
-- Página de Login
-- Campos customizáveis
+Website for a military institution within a game that simulates military life. Website developed with WordPress, PHP, and javascript
